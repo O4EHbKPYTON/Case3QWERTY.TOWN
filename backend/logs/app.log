@@ -1,0 +1,40 @@
+{"file":"logger.go:66","level":"info","msg":"\"User created successfully\"","time":"2025-04-06T20:11:22+02:00","user_id":0,"username":"string"}
+{"email":"string","file":"logger.go:65","fullname":"string","level":"info","msg":"\"Attempting to create Owner\"","time":"2025-04-07T14:33:15+02:00"}
+{"email":"string","file":"logger.go:65","fullname":"string","level":"info","msg":"\"Owner created successfully\"","owner_id":1,"time":"2025-04-07T14:33:15+02:00"}
+{"email":"string","file":"logger.go:65","level":"info","msg":"\"Attempting to create user\"","time":"2025-04-07T14:33:43+02:00","username":"string"}
+{"email":"string","error":"pq: relation \"user\" does not exist","file":"logger.go:65","level":"error","msg":"\"Database error when creating user\"","time":"2025-04-07T14:33:43+02:00","username":"string"}
+{"Id":0,"Name":"string","file":"logger.go:65","level":"info","msg":"\"Attempting to create Company\"","time":"2025-04-07T16:36:38+02:00"}
+{"Id":0,"Name":"string","company_id":1,"file":"logger.go:65","level":"info","msg":"\"Company created successfully\"","time":"2025-04-07T16:36:38+02:00"}
+{"email":"string","file":"logger.go:65","fullname":"string","level":"info","msg":"\"Attempting to create Owner\"","time":"2025-04-07T16:59:25+02:00"}
+{"email":"string","file":"logger.go:65","fullname":"string","level":"info","msg":"\"Owner created successfully\"","owner_id":2,"time":"2025-04-07T16:59:25+02:00"}
+{"INN":"string","Id":0,"Name":"string","file":"logger.go:65","level":"info","msg":"\"Attempting to create Company\"","time":"2025-04-08T10:27:59+02:00"}
+{"INN":"string","Id":0,"Name":"string","file":"logger.go:65","level":"warning","msg":"\"INN already exists\"","time":"2025-04-08T10:27:59+02:00"}
+{"INN":"123456789983","Id":0,"Name":"string","file":"logger.go:65","level":"info","msg":"\"Attempting to create Company\"","time":"2025-04-08T10:28:17+02:00"}
+{"INN":"123456789983","Id":0,"Name":"string","company_id":3,"file":"logger.go:65","level":"info","msg":"\"Company created successfully\"","time":"2025-04-08T10:28:17+02:00"}
+{"INN":"123456789345","Id":0,"Name":"string","file":"logger.go:65","level":"info","msg":"\"Attempting to create Company\"","time":"2025-04-08T11:00:21+02:00"}
+{"INN":"123456789345","Id":0,"Name":"string","company_id":4,"file":"logger.go:65","level":"info","msg":"\"Company created successfully\"","time":"2025-04-08T11:00:21+02:00"}
+{"INN":"987654321123","Id":0,"Name":"РосстехАрена","file":"logger.go:65","level":"info","msg":"\"Attempting to create Company\"","time":"2025-04-08T12:06:44+02:00"}
+{"INN":"987654321123","Id":0,"Name":"РосстехАрена","error":"pq: column \"lat\" of relation \"company\" does not exist","file":"logger.go:65","level":"error","msg":"\"Database error when creating company\"","time":"2025-04-08T12:06:44+02:00"}
+{"INN":"987654321123","Id":0,"Name":"РосстехАрена","file":"logger.go:65","level":"info","msg":"\"Attempting to create Company\"","time":"2025-04-08T12:08:04+02:00"}
+{"INN":"987654321123","Id":0,"Name":"РосстехАрена","company_id":5,"file":"logger.go:65","level":"info","msg":"\"Company created successfully\"","time":"2025-04-08T12:08:04+02:00"}
+{"address":"Солнечный бульвар, 25","city":"Калининград","company_id":5,"file":"logger.go:65","lat":54.698692,"level":"info","lon":20.534688,"msg":"\"Company coordinates updated successfully\"","name":"РосстехАрена","time":"2025-04-08T12:08:04+02:00"}
+{"address":"улица Литовский Вал, 38","city":"Калининград","company_id":4,"file":"logger.go:65","lat":54.717163,"level":"info","lon":20.531948,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:30:25+02:00"}
+{"address":"string","city":"string","company_id":1,"file":"logger.go:65","lat":53.07122,"level":"info","lon":5.800745,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:30:25+02:00"}
+{"address":"Солнечный бульвар, 25","city":"Калининград","company_id":5,"file":"logger.go:65","lat":54.698692,"level":"info","lon":20.534688,"msg":"\"Company coordinates updated successfully\"","name":"РосстехАрена","time":"2025-04-08T12:30:25+02:00"}
+{"address":"бул. Мухаммед Бин Рашид, дом 1","city":"Дубай","company_id":3,"file":"logger.go:65","lat":25.19718,"level":"info","lon":55.274247,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:30:25+02:00"}
+{"address":"string","city":"string","company_id":1,"file":"logger.go:65","lat":53.07122,"level":"info","lon":5.800745,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:30:38+02:00"}
+{"address":"улица Литовский Вал, 38","city":"Калининград","company_id":4,"file":"logger.go:65","lat":54.717163,"level":"info","lon":20.531948,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:30:38+02:00"}
+{"address":"Солнечный бульвар, 25","city":"Калининград","company_id":5,"file":"logger.go:65","lat":54.698692,"level":"info","lon":20.534688,"msg":"\"Company coordinates updated successfully\"","name":"РосстехАрена","time":"2025-04-08T12:30:38+02:00"}
+{"address":"бул. Мухаммед Бин Рашид, дом 1","city":"Дубай","company_id":3,"file":"logger.go:65","lat":25.19718,"level":"info","lon":55.274247,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:30:38+02:00"}
+{"address":"string","city":"string","company_id":1,"file":"logger.go:65","lat":53.07122,"level":"info","lon":5.800745,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:31:29+02:00"}
+{"address":"улица Литовский Вал, 38","city":"Калининград","company_id":4,"file":"logger.go:65","lat":54.717163,"level":"info","lon":20.531948,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:31:29+02:00"}
+{"address":"бул. Мухаммед Бин Рашид, дом 1","city":"Дубай","company_id":3,"file":"logger.go:65","lat":25.19718,"level":"info","lon":55.274247,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:31:29+02:00"}
+{"address":"Солнечный бульвар, 25","city":"Калининград","company_id":5,"file":"logger.go:65","lat":54.698692,"level":"info","lon":20.534688,"msg":"\"Company coordinates updated successfully\"","name":"РосстехАрена","time":"2025-04-08T12:31:29+02:00"}
+{"address":"string","city":"string","company_id":1,"file":"logger.go:65","lat":53.07122,"level":"info","lon":5.800745,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:32:37+02:00"}
+{"address":"Солнечный бульвар, 25","city":"Калининград","company_id":5,"file":"logger.go:65","lat":54.698692,"level":"info","lon":20.534688,"msg":"\"Company coordinates updated successfully\"","name":"РосстехАрена","time":"2025-04-08T12:32:37+02:00"}
+{"address":"бул. Мухаммед Бин Рашид, дом 1","city":"Дубай","company_id":3,"file":"logger.go:65","lat":25.19718,"level":"info","lon":55.274247,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:32:37+02:00"}
+{"address":"улица Литовский Вал, 38","city":"Калининград","company_id":4,"file":"logger.go:65","lat":54.717163,"level":"info","lon":20.531948,"msg":"\"Company coordinates updated successfully\"","name":"string","time":"2025-04-08T12:32:37+02:00"}
+{"company_id":5,"db_lat":0,"db_lon":0,"file":"logger.go:65","lat":0,"level":"info","lon":0,"msg":"\"Company coordinates updated successfully\"","time":"2025-04-08T12:36:08+02:00"}
+{"company_id":4,"db_lat":0,"db_lon":0,"file":"logger.go:65","lat":0,"level":"info","lon":0,"msg":"\"Company coordinates updated successfully\"","time":"2025-04-08T12:36:08+02:00"}
+{"company_id":3,"db_lat":0,"db_lon":0,"file":"logger.go:65","lat":0,"level":"info","lon":0,"msg":"\"Company coordinates updated successfully\"","time":"2025-04-08T12:36:08+02:00"}
+{"company_id":1,"db_lat":0,"db_lon":0,"file":"logger.go:65","lat":0,"level":"info","lon":0,"msg":"\"Company coordinates updated successfully\"","time":"2025-04-08T12:36:08+02:00"}

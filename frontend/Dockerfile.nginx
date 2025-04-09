@@ -1,0 +1,13 @@
+FROM nginx:alpine
+
+
+# Копируем файлы во временную папку
+COPY . /tmp/html/
+
+# Меняем владельца и права, затем копируем в рабочую папку Nginx
+RUN cp -R /tmp/html/. /usr/share/nginx/html/ && \
+    chown -R nginx:nginx /usr/share/nginx/html && \
+    chmod -R 755 /usr/share/nginx/html && \
+    rm -rf /tmp/html
+
+RUN ls -l /usr/share/nginx/html
