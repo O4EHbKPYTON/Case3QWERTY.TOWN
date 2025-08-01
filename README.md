@@ -1,4 +1,4 @@
-# Karl'Go - Booking приложение на Go
+# Karl'Go - Booking приложение на языке Go
 
 <img width="1315" height="986" alt="Maps" src="https://github.com/user-attachments/assets/556390d7-e2c9-4128-8ef3-884077ec6ef6" />
 
